@@ -2,6 +2,7 @@ if (Tulo) {
 
   var Sodapop = (function($) {
 
+    var version = "0.1";
     var initialized = 0;
     var data = {};
     var display_name = "";
