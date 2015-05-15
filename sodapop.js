@@ -178,7 +178,8 @@ if (Tulo) {
               var had_product = false;
               jQuery.each(Sodapop.previous_packages, function(i) {
                 var previous = Sodapop.previous_packages[i];
-                if (previous.code == options.product_code) {
+                log("Previous: "+previous);
+                if (previous == options.product_code) {
                   callback(previous);
                   return false;
                 }
@@ -246,7 +247,8 @@ if (Tulo) {
         var had_product = false;
         jQuery.each(Sodapop.previous_packages, function(i) {
           var previous = Sodapop.previous_packages[i];
-          if (previous.code == product_code) {
+          log("Previous: "+previous);
+          if (previous == product_code) {
             had_product = true;
             return false;
           }
