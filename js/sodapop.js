@@ -192,7 +192,7 @@ if (Tulo) {
           }
         }
         else if (type == 'data') {
-          criteria = options.criteria;
+          criteria = options.criterias;
           fulfilled = [];
           jQuery.each(criteria, function(i) {
             crit = criteria[i];
